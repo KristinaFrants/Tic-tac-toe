@@ -76,8 +76,10 @@ export const Board = props => {
 	return (
 		<div className="Game">
 			<div className="Board">{vCells}</div>
-			<p>Next move: {symbl}</p>
-			<button onClick={newGame}>New Game</button>
+			<p style={{ marginLeft: "3%" }}>Next move: {symbl}</p>
+			<button style={{ marginLeft: "3%" }} onClick={newGame}>
+				New Game
+			</button>
 		</div>
 	);
 };
